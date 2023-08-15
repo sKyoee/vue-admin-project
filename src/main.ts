@@ -6,7 +6,8 @@ import "element-plus/dist/index.css";
 // 国际化配置，语言设置为中文
 //@ts-ignore
 import zhCn from "element-plus/dist/locale/zh-cn.mjs";
-
+// svg
+import "virtual:svg-icons-register";
 const app = createApp(App);
 app.use(ElementPlus, {
   locale: zhCn,
