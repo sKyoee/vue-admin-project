@@ -5,4 +5,8 @@
 
 <script lang="ts" setup></script>
 
-<style scoped></style>
+<style scoped lang="scss">
+div {
+  color: $base-color;
+}
+</style>
