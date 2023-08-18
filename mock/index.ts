@@ -58,7 +58,7 @@ export default [
       const token = request.headers.token;
       //查看用户信息是否包含有次token用户
       const checkUser = createUserList().find((item) => item.token === token);
-      //没有返回失败的信息
+      //没有,返回失败的信息
       if (!checkUser) {
         return { code: 201, data: { message: "获取用户信息失败" } };
       }
